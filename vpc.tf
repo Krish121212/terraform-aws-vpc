@@ -140,7 +140,7 @@ resource "aws_route_table" "database_route_table" {
 }
 
 
-## routes
+## routes ##
 resource "aws_route" "public_route" {
   route_table_id            = aws_route_table.public_route_table.id
   destination_cidr_block    = "0.0.0.0/0"
