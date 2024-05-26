@@ -19,11 +19,19 @@ output "database_subnet_ids" {
 }
 
 output "database_subnet_group_id" {
+<<<<<<< HEAD
 value = aws_db_subnet_group.db.id
 }
 
 output "database_subnet_group_name" {
 value = aws_db_subnet_group.db.name
+=======
+  value = aws_db_subnet_group.db.id
+}
+
+output "database_subnet_group_name" {
+  value = aws_db_subnet_group.db.name
+>>>>>>> a4386f07b31a30de3ac5f29a2cc4a1d6a264bb57
 }
 
 output "igw_id" {
